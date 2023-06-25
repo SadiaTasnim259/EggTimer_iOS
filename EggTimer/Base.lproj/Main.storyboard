@@ -25,7 +25,7 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="op8-rU-vnc">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="op8-rU-vnc">
                                 <rect key="frame" x="10" y="798" width="394" height="4"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="trackTintColor" systemColor="quaternaryLabelColor"/>
@@ -44,24 +44,27 @@
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFx-Fv-pVX">
-                                                <rect key="frame" x="36" y="58" width="49" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="SOFT">
+                                                <state key="normal" title="Soft">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="eggButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g5N-ra-bwp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="cFx-Fv-pVX" secondAttribute="bottom" constant="58" id="5Hm-n7-mAb"/>
                                             <constraint firstItem="FTt-X9-jbb" firstAttribute="top" secondItem="YEq-Tf-Qvr" secondAttribute="top" id="ACZ-bT-Rn7"/>
-                                            <constraint firstItem="cFx-Fv-pVX" firstAttribute="top" secondItem="YEq-Tf-Qvr" secondAttribute="top" constant="58" id="Ac6-kY-dUm"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cFx-Fv-pVX" secondAttribute="trailing" symbolic="YES" id="AeB-ZK-fCr"/>
+                                            <constraint firstItem="cFx-Fv-pVX" firstAttribute="leading" secondItem="YEq-Tf-Qvr" secondAttribute="leading" id="EOe-yy-v33"/>
                                             <constraint firstAttribute="width" constant="120" id="FyE-kf-Dlu"/>
+                                            <constraint firstAttribute="bottom" secondItem="cFx-Fv-pVX" secondAttribute="bottom" id="NRQ-35-oO4"/>
                                             <constraint firstAttribute="bottom" secondItem="FTt-X9-jbb" secondAttribute="bottom" id="PFh-hy-YEI"/>
                                             <constraint firstItem="FTt-X9-jbb" firstAttribute="leading" secondItem="YEq-Tf-Qvr" secondAttribute="leading" id="ReL-c6-QUv"/>
+                                            <constraint firstItem="cFx-Fv-pVX" firstAttribute="top" secondItem="YEq-Tf-Qvr" secondAttribute="top" id="fgl-9Y-cRF"/>
                                             <constraint firstAttribute="height" constant="150" id="i0b-s9-tut"/>
-                                            <constraint firstItem="cFx-Fv-pVX" firstAttribute="leading" secondItem="YEq-Tf-Qvr" secondAttribute="leading" constant="36" id="xG8-O5-hkA"/>
+                                            <constraint firstAttribute="trailing" secondItem="cFx-Fv-pVX" secondAttribute="trailing" id="uSJ-l5-yzW"/>
                                             <constraint firstAttribute="trailing" secondItem="FTt-X9-jbb" secondAttribute="trailing" id="zvu-bD-C4p"/>
                                         </constraints>
                                     </view>
@@ -78,24 +81,27 @@
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jdj-nv-YTM">
-                                                <rect key="frame" x="23" y="58" width="75" height="35"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Medium">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="eggButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kgq-Ud-j88"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="Jdj-nv-YTM" firstAttribute="leading" secondItem="1eJ-YF-2HF" secondAttribute="leading" constant="23" id="5VT-Qs-n9a"/>
                                             <constraint firstAttribute="trailing" secondItem="Z6n-So-UH2" secondAttribute="trailing" id="83U-6D-Bfn"/>
+                                            <constraint firstAttribute="bottom" secondItem="Jdj-nv-YTM" secondAttribute="bottom" id="C3k-et-zfa"/>
                                             <constraint firstItem="Z6n-So-UH2" firstAttribute="leading" secondItem="1eJ-YF-2HF" secondAttribute="leading" id="Dh5-LB-qk3"/>
+                                            <constraint firstAttribute="trailing" secondItem="Jdj-nv-YTM" secondAttribute="trailing" id="F3Q-RN-urk"/>
                                             <constraint firstAttribute="width" constant="120" id="FWe-OA-uby"/>
-                                            <constraint firstAttribute="trailing" secondItem="Jdj-nv-YTM" secondAttribute="trailing" constant="22" id="NEw-hw-4PA"/>
                                             <constraint firstAttribute="bottom" secondItem="Z6n-So-UH2" secondAttribute="bottom" id="S89-G6-leI"/>
-                                            <constraint firstAttribute="bottom" secondItem="Jdj-nv-YTM" secondAttribute="bottom" constant="57" id="YVn-0y-9jT"/>
+                                            <constraint firstItem="Jdj-nv-YTM" firstAttribute="leading" secondItem="1eJ-YF-2HF" secondAttribute="leading" id="Y9G-Ok-oVd"/>
                                             <constraint firstItem="Z6n-So-UH2" firstAttribute="top" secondItem="1eJ-YF-2HF" secondAttribute="top" id="bjN-VZ-Qj2"/>
-                                            <constraint firstItem="Jdj-nv-YTM" firstAttribute="top" secondItem="1eJ-YF-2HF" secondAttribute="top" constant="58" id="irC-Je-o49"/>
+                                            <constraint firstItem="Jdj-nv-YTM" firstAttribute="top" secondItem="1eJ-YF-2HF" secondAttribute="top" id="rdp-Xb-O30"/>
                                             <constraint firstAttribute="height" constant="150" id="uvt-C6-j7z"/>
                                         </constraints>
                                     </view>
@@ -112,24 +118,27 @@
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBc-Lx-NSQ">
-                                                <rect key="frame" x="23" y="58" width="75" height="35"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Hard">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="eggButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2D0-k1-uS0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="mBc-Lx-NSQ" firstAttribute="top" secondItem="pT7-ms-FVR" secondAttribute="top" constant="58" id="92f-iZ-jyu"/>
                                             <constraint firstAttribute="bottom" secondItem="icV-eH-2RR" secondAttribute="bottom" id="9Sn-gL-FYU"/>
-                                            <constraint firstAttribute="bottom" secondItem="mBc-Lx-NSQ" secondAttribute="bottom" constant="57" id="OBo-HN-ybV"/>
                                             <constraint firstItem="icV-eH-2RR" firstAttribute="top" secondItem="pT7-ms-FVR" secondAttribute="top" id="QW9-GW-Fq1"/>
-                                            <constraint firstItem="mBc-Lx-NSQ" firstAttribute="leading" secondItem="pT7-ms-FVR" secondAttribute="leading" constant="23" id="ZLv-6P-l10"/>
+                                            <constraint firstItem="mBc-Lx-NSQ" firstAttribute="top" secondItem="pT7-ms-FVR" secondAttribute="top" id="Qlw-Ko-Jju"/>
+                                            <constraint firstAttribute="bottom" secondItem="mBc-Lx-NSQ" secondAttribute="bottom" id="Xeb-zh-kjg"/>
+                                            <constraint firstItem="mBc-Lx-NSQ" firstAttribute="leading" secondItem="pT7-ms-FVR" secondAttribute="leading" id="ekV-Vu-373"/>
+                                            <constraint firstAttribute="trailing" secondItem="mBc-Lx-NSQ" secondAttribute="trailing" id="mAZ-PB-h3B"/>
                                             <constraint firstItem="icV-eH-2RR" firstAttribute="leading" secondItem="pT7-ms-FVR" secondAttribute="leading" id="ose-5a-hIb"/>
                                             <constraint firstAttribute="height" constant="150" id="rti-gH-RDE"/>
                                             <constraint firstAttribute="trailing" secondItem="icV-eH-2RR" secondAttribute="trailing" id="vGI-QG-CPz"/>
-                                            <constraint firstAttribute="trailing" secondItem="mBc-Lx-NSQ" secondAttribute="trailing" constant="22" id="wjz-Rf-6Fx"/>
                                             <constraint firstAttribute="width" constant="120" id="zqt-4p-6SR"/>
                                         </constraints>
                                     </view>
@@ -149,6 +158,10 @@
                             <constraint firstItem="ANs-47-A4U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s5A-vy-Nj0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="infoLabel" destination="Vwo-2V-1Jr" id="US1-Rq-a3J"/>
+                        <outlet property="progressBar" destination="op8-rU-vnc" id="l7A-Ki-ngO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
