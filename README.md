@@ -1,2 +1,2 @@
-# EggTimer_iOS
+# EggTimer
 Timer with Audio Player
