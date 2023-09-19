@@ -1,12 +1,8 @@
 # EggTimer
 Timer with Audio Player
 ## What is it?
-- Address-Book is a contact manager App
-- Here we can save any person's name, phone number, Email, and pictures.
-- We can also delete and update the details.
-- There is also a search tab for searching for contacts.
-  
-<!---   <p align="center"><img src="UserCoreDataProject2.gif" height="450"/></p>   -->
+- Egg Timer is a timing remainder App.
+- Here we can set the remainder for soft, medium, hard boiling eggs and get alarm when done.
 
 ## Screenshots and App Walkthrough
 
